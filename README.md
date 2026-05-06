@@ -74,4 +74,4 @@ Basically: Replace reactive support with predictive + AI-assisted operations
 
 
 
-[Gemma 2 AI](https://aistudio.google.com/prompts/1LrHk2-_QK002z_rPuKqeCsb1aCx_HSDx?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=)
+[Gemma 2](https://aistudio.google.com/prompts/1LrHk2-_QK002z_rPuKqeCsb1aCx_HSDx?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=)
