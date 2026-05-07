@@ -22,7 +22,7 @@ Basically: Replace reactive support with predictive + AI-assisted operations
     * Suggested fix
 
 2. Log Anomaly Detection (ML + GenAI combo)
-* Input: Logs (SBC, CUCM, TPO, etc.)
+* Input: Logs
 * Detect:
     * Pattern deviation
     * Error spikes
@@ -31,7 +31,7 @@ Basically: Replace reactive support with predictive + AI-assisted operations
 
 3. ChatOps Assistant (My UI module)
 * Ask:
-    * “Why is turret not registering?”
+    * “Why is device not registering?”
     * “Show similar incidents last month”
 * Output:
     * Context-aware answer using RAG
