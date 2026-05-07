@@ -1,6 +1,6 @@
 Project Vision (Client Requirement)
 
-# "AI-Powered Incident Intelligence & Knowledge Copilot"
+# "AI-Powered Incident Intelligence & Knowledge Copilot" || "NetOps AI Sentinel"
 
 A system that:
 1. Ingests logs, tickets, configs (like CUCM, SBC, TPO, TSS)
