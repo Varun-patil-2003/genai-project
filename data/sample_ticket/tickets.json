@@ -1,21 +1,21 @@
 [
     {
         "id": "TICKET-1000",
-        "title": "Call dropping after 30 seconds (Case 0)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-02-08T23:01:51.060247",
-        "resolved_at": "2026-04-11T23:01:51.060284"
+        "title": "User cannot register phone (Case 0)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2026-03-26T21:26:40.985472",
+        "resolved_at": "2026-04-21T21:26:40.985824"
     },
     {
         "id": "TICKET-1001",
-        "title": "Intermittent audio loss (Case 1)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2026-01-27T23:01:51.060298",
-        "resolved_at": "2026-04-16T23:01:51.060304"
+        "title": "User cannot register phone (Case 1)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2025-09-13T21:26:40.985855",
+        "resolved_at": "2026-04-27T21:26:40.985865"
     },
     {
         "id": "TICKET-1002",
@@ -23,26 +23,26 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2026-02-08T23:01:51.060312",
-        "resolved_at": "2026-04-18T23:01:51.060316"
+        "created_at": "2026-02-27T21:26:40.985878",
+        "resolved_at": "2026-04-12T21:26:40.985885"
     },
     {
         "id": "TICKET-1003",
-        "title": "Call dropping after 30 seconds (Case 3)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-07-24T23:01:51.060321",
-        "resolved_at": "2026-04-05T23:01:51.060324"
+        "title": "User cannot register phone (Case 3)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2026-04-18T21:26:40.985895",
+        "resolved_at": "2026-04-24T21:26:40.985901"
     },
     {
         "id": "TICKET-1004",
-        "title": "Call dropping after 30 seconds (Case 4)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-03-08T23:01:51.060329",
-        "resolved_at": "2026-04-21T23:01:51.060332"
+        "title": "Intermittent audio loss (Case 4)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2026-01-22T21:26:40.985911",
+        "resolved_at": "2026-05-08T21:26:40.985918"
     },
     {
         "id": "TICKET-1005",
@@ -50,53 +50,53 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-05-18T23:01:51.060337",
-        "resolved_at": "2026-05-04T23:01:51.060340"
+        "created_at": "2025-08-06T21:26:40.985932",
+        "resolved_at": "2026-04-22T21:26:40.985940"
     },
     {
         "id": "TICKET-1006",
-        "title": "Intermittent audio loss (Case 6)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2026-04-27T23:01:51.060347",
-        "resolved_at": "2026-05-04T23:01:51.060350"
-    },
-    {
-        "id": "TICKET-1007",
-        "title": "Intermittent audio loss (Case 7)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2026-01-08T23:01:51.060355",
-        "resolved_at": "2026-05-01T23:01:51.060358"
-    },
-    {
-        "id": "TICKET-1008",
-        "title": "Call dropping after 30 seconds (Case 8)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-06-15T23:01:51.060362",
-        "resolved_at": "2026-05-01T23:01:51.060365"
-    },
-    {
-        "id": "TICKET-1009",
-        "title": "User cannot register phone (Case 9)",
+        "title": "User cannot register phone (Case 6)",
         "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
         "priority": "P3",
         "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-12-19T23:01:51.060372",
-        "resolved_at": "2026-04-17T23:01:51.060376"
+        "created_at": "2025-09-11T21:26:40.985950",
+        "resolved_at": "2026-05-06T21:26:40.985957"
     },
     {
-        "id": "TICKET-1010",
-        "title": "Call dropping after 30 seconds (Case 10)",
+        "id": "TICKET-1007",
+        "title": "User cannot register phone (Case 7)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2026-02-14T21:26:40.985969",
+        "resolved_at": "2026-05-12T21:26:40.985976"
+    },
+    {
+        "id": "TICKET-1008",
+        "title": "Intermittent audio loss (Case 8)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2026-05-03T21:26:40.985986",
+        "resolved_at": "2026-05-08T21:26:40.985992"
+    },
+    {
+        "id": "TICKET-1009",
+        "title": "Call dropping after 30 seconds (Case 9)",
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-09-06T23:01:51.060380",
-        "resolved_at": "2026-04-26T23:01:51.060383"
+        "created_at": "2025-06-02T21:26:40.986002",
+        "resolved_at": "2026-04-13T21:26:40.986008"
+    },
+    {
+        "id": "TICKET-1010",
+        "title": "Intermittent audio loss (Case 10)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2026-04-16T21:26:40.986016",
+        "resolved_at": "2026-04-30T21:26:40.986023"
     },
     {
         "id": "TICKET-1011",
@@ -104,8 +104,8 @@
         "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
         "priority": "P3",
         "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2026-01-02T23:01:51.060388",
-        "resolved_at": "2026-04-10T23:01:51.060391"
+        "created_at": "2025-05-12T21:26:40.986032",
+        "resolved_at": "2026-05-10T21:26:40.986039"
     },
     {
         "id": "TICKET-1012",
@@ -113,26 +113,26 @@
         "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
         "priority": "P3",
         "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-05-14T23:01:51.060395",
-        "resolved_at": "2026-04-11T23:01:51.060398"
+        "created_at": "2025-06-06T21:26:40.986049",
+        "resolved_at": "2026-04-18T21:26:40.986055"
     },
     {
         "id": "TICKET-1013",
-        "title": "Intermittent audio loss (Case 13)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-08-30T23:01:51.060405",
-        "resolved_at": "2026-05-02T23:01:51.060408"
+        "title": "Call dropping after 30 seconds (Case 13)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2026-01-05T21:26:40.986067",
+        "resolved_at": "2026-05-08T21:26:40.986074"
     },
     {
         "id": "TICKET-1014",
-        "title": "Intermittent audio loss (Case 14)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-06-30T23:01:51.060412",
-        "resolved_at": "2026-04-24T23:01:51.060415"
+        "title": "User cannot register phone (Case 14)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2025-05-13T21:26:40.986083",
+        "resolved_at": "2026-05-07T21:26:40.986089"
     },
     {
         "id": "TICKET-1015",
@@ -140,17 +140,17 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-12-29T23:01:51.060419",
-        "resolved_at": "2026-04-17T23:01:51.060423"
+        "created_at": "2025-05-17T21:26:40.986097",
+        "resolved_at": "2026-04-20T21:26:40.986103"
     },
     {
         "id": "TICKET-1016",
-        "title": "Call dropping after 30 seconds (Case 16)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-03-24T23:01:51.060427",
-        "resolved_at": "2026-04-22T23:01:51.060430"
+        "title": "Intermittent audio loss (Case 16)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2026-01-02T21:26:40.986113",
+        "resolved_at": "2026-05-09T21:26:40.986118"
     },
     {
         "id": "TICKET-1017",
@@ -158,26 +158,26 @@
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-11-10T23:01:51.060434",
-        "resolved_at": "2026-04-11T23:01:51.060437"
+        "created_at": "2025-10-13T21:26:40.986129",
+        "resolved_at": "2026-04-21T21:26:40.986134"
     },
     {
         "id": "TICKET-1018",
-        "title": "Call dropping after 30 seconds (Case 18)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-05-01T23:01:51.060442",
-        "resolved_at": "2026-05-05T23:01:51.060445"
+        "title": "Intermittent audio loss (Case 18)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2025-05-23T21:26:40.986143",
+        "resolved_at": "2026-05-02T21:26:40.986150"
     },
     {
         "id": "TICKET-1019",
-        "title": "User cannot register phone (Case 19)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2026-02-17T23:01:51.060450",
-        "resolved_at": "2026-04-19T23:01:51.060453"
+        "title": "Call dropping after 30 seconds (Case 19)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2025-11-22T21:26:40.986159",
+        "resolved_at": "2026-04-25T21:26:40.986165"
     },
     {
         "id": "TICKET-1020",
@@ -185,44 +185,44 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2026-04-06T23:01:51.060457",
-        "resolved_at": "2026-04-10T23:01:51.060460"
+        "created_at": "2025-08-26T21:26:40.986175",
+        "resolved_at": "2026-04-15T21:26:40.986181"
     },
     {
         "id": "TICKET-1021",
-        "title": "Call dropping after 30 seconds (Case 21)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-04-06T23:01:51.060464",
-        "resolved_at": "2026-05-01T23:01:51.060467"
-    },
-    {
-        "id": "TICKET-1022",
-        "title": "Call dropping after 30 seconds (Case 22)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-03-03T23:01:51.060471",
-        "resolved_at": "2026-04-28T23:01:51.060474"
-    },
-    {
-        "id": "TICKET-1023",
-        "title": "Call dropping after 30 seconds (Case 23)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-12-09T23:01:51.060478",
-        "resolved_at": "2026-04-09T23:01:51.060482"
-    },
-    {
-        "id": "TICKET-1024",
-        "title": "Intermittent audio loss (Case 24)",
+        "title": "Intermittent audio loss (Case 21)",
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-10-04T23:01:51.060486",
-        "resolved_at": "2026-04-22T23:01:51.060489"
+        "created_at": "2025-09-18T21:26:40.986190",
+        "resolved_at": "2026-04-12T21:26:40.986196"
+    },
+    {
+        "id": "TICKET-1022",
+        "title": "Intermittent audio loss (Case 22)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2025-10-27T21:26:40.986203",
+        "resolved_at": "2026-04-16T21:26:40.986209"
+    },
+    {
+        "id": "TICKET-1023",
+        "title": "Intermittent audio loss (Case 23)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2025-09-12T21:26:40.986222",
+        "resolved_at": "2026-04-15T21:26:40.986228"
+    },
+    {
+        "id": "TICKET-1024",
+        "title": "Call dropping after 30 seconds (Case 24)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2025-08-29T21:26:40.986238",
+        "resolved_at": "2026-05-10T21:26:40.986243"
     },
     {
         "id": "TICKET-1025",
@@ -230,17 +230,17 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-10-22T23:01:51.060494",
-        "resolved_at": "2026-04-16T23:01:51.060499"
+        "created_at": "2026-01-02T21:26:40.986253",
+        "resolved_at": "2026-04-13T21:26:40.986260"
     },
     {
         "id": "TICKET-1026",
-        "title": "Call dropping after 30 seconds (Case 26)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-05-16T23:01:51.060504",
-        "resolved_at": "2026-04-25T23:01:51.060507"
+        "title": "User cannot register phone (Case 26)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2026-01-08T21:26:40.986268",
+        "resolved_at": "2026-04-26T21:26:40.986275"
     },
     {
         "id": "TICKET-1027",
@@ -248,44 +248,44 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-10-26T23:01:51.060511",
-        "resolved_at": "2026-04-30T23:01:51.060515"
+        "created_at": "2026-04-21T21:26:40.986284",
+        "resolved_at": "2026-04-17T21:26:40.986290"
     },
     {
         "id": "TICKET-1028",
-        "title": "User cannot register phone (Case 28)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-07-22T23:01:51.060519",
-        "resolved_at": "2026-04-16T23:01:51.060522"
+        "title": "Call dropping after 30 seconds (Case 28)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2025-08-12T21:26:40.986299",
+        "resolved_at": "2026-05-10T21:26:40.986305"
     },
     {
         "id": "TICKET-1029",
-        "title": "Intermittent audio loss (Case 29)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-05-26T23:01:51.060526",
-        "resolved_at": "2026-04-19T23:01:51.060529"
-    },
-    {
-        "id": "TICKET-1030",
-        "title": "Intermittent audio loss (Case 30)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2026-03-12T23:01:51.060533",
-        "resolved_at": "2026-04-20T23:01:51.060535"
-    },
-    {
-        "id": "TICKET-1031",
-        "title": "User cannot register phone (Case 31)",
+        "title": "User cannot register phone (Case 29)",
         "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
         "priority": "P3",
         "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-08-01T23:01:51.060539",
-        "resolved_at": "2026-04-15T23:01:51.060543"
+        "created_at": "2025-12-27T21:26:40.986314",
+        "resolved_at": "2026-05-11T21:26:40.986321"
+    },
+    {
+        "id": "TICKET-1030",
+        "title": "User cannot register phone (Case 30)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2025-09-28T21:26:40.986330",
+        "resolved_at": "2026-04-16T21:26:40.986337"
+    },
+    {
+        "id": "TICKET-1031",
+        "title": "Call dropping after 30 seconds (Case 31)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2026-01-21T21:26:40.986345",
+        "resolved_at": "2026-04-30T21:26:40.986351"
     },
     {
         "id": "TICKET-1032",
@@ -293,44 +293,44 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-06-25T23:01:51.060550",
-        "resolved_at": "2026-04-13T23:01:51.060553"
+        "created_at": "2025-12-23T21:26:40.986363",
+        "resolved_at": "2026-04-28T21:26:40.986371"
     },
     {
         "id": "TICKET-1033",
-        "title": "User cannot register phone (Case 33)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-06-29T23:01:51.060557",
-        "resolved_at": "2026-04-24T23:01:51.060560"
-    },
-    {
-        "id": "TICKET-1034",
-        "title": "User cannot register phone (Case 34)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-09-04T23:01:51.060564",
-        "resolved_at": "2026-04-25T23:01:51.060567"
-    },
-    {
-        "id": "TICKET-1035",
-        "title": "Intermittent audio loss (Case 35)",
+        "title": "Intermittent audio loss (Case 33)",
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2026-04-17T23:01:51.060572",
-        "resolved_at": "2026-04-06T23:01:51.060575"
+        "created_at": "2025-07-03T21:26:40.986380",
+        "resolved_at": "2026-04-26T21:26:40.986387"
     },
     {
-        "id": "TICKET-1036",
-        "title": "Call dropping after 30 seconds (Case 36)",
+        "id": "TICKET-1034",
+        "title": "Call dropping after 30 seconds (Case 34)",
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-05-16T23:01:51.060579",
-        "resolved_at": "2026-04-19T23:01:51.060582"
+        "created_at": "2026-03-27T21:26:40.986396",
+        "resolved_at": "2026-04-18T21:26:40.986402"
+    },
+    {
+        "id": "TICKET-1035",
+        "title": "User cannot register phone (Case 35)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2026-01-07T21:26:40.986411",
+        "resolved_at": "2026-04-27T21:26:40.986418"
+    },
+    {
+        "id": "TICKET-1036",
+        "title": "Intermittent audio loss (Case 36)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2025-05-27T21:26:40.986427",
+        "resolved_at": "2026-04-12T21:26:40.986434"
     },
     {
         "id": "TICKET-1037",
@@ -338,26 +338,26 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-07-03T23:01:51.060586",
-        "resolved_at": "2026-04-10T23:01:51.060589"
+        "created_at": "2026-03-16T21:26:40.986444",
+        "resolved_at": "2026-04-24T21:26:40.986449"
     },
     {
         "id": "TICKET-1038",
-        "title": "User cannot register phone (Case 38)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-05-06T23:01:51.060593",
-        "resolved_at": "2026-05-04T23:01:51.060596"
+        "title": "Intermittent audio loss (Case 38)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2026-01-13T21:26:40.986458",
+        "resolved_at": "2026-05-04T21:26:40.986465"
     },
     {
         "id": "TICKET-1039",
-        "title": "User cannot register phone (Case 39)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-12-25T23:01:51.060600",
-        "resolved_at": "2026-05-01T23:01:51.060603"
+        "title": "Intermittent audio loss (Case 39)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2025-05-14T21:26:40.986474",
+        "resolved_at": "2026-04-29T21:26:40.986479"
     },
     {
         "id": "TICKET-1040",
@@ -365,35 +365,35 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2026-01-24T23:01:51.060608",
-        "resolved_at": "2026-04-18T23:01:51.060611"
+        "created_at": "2026-01-03T21:26:40.986490",
+        "resolved_at": "2026-04-28T21:26:40.986497"
     },
     {
         "id": "TICKET-1041",
-        "title": "Call dropping after 30 seconds (Case 41)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-01-06T23:01:51.060618",
-        "resolved_at": "2026-04-13T23:01:51.060621"
-    },
-    {
-        "id": "TICKET-1042",
-        "title": "Call dropping after 30 seconds (Case 42)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-08-26T23:01:51.060626",
-        "resolved_at": "2026-04-18T23:01:51.060629"
-    },
-    {
-        "id": "TICKET-1043",
-        "title": "User cannot register phone (Case 43)",
+        "title": "User cannot register phone (Case 41)",
         "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
         "priority": "P3",
         "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2026-01-10T23:01:51.060633",
-        "resolved_at": "2026-04-25T23:01:51.060637"
+        "created_at": "2026-02-20T21:26:40.986508",
+        "resolved_at": "2026-04-19T21:26:40.986514"
+    },
+    {
+        "id": "TICKET-1042",
+        "title": "User cannot register phone (Case 42)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2025-10-24T21:26:40.986527",
+        "resolved_at": "2026-04-22T21:26:40.986533"
+    },
+    {
+        "id": "TICKET-1043",
+        "title": "Call dropping after 30 seconds (Case 43)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2026-02-17T21:26:40.986541",
+        "resolved_at": "2026-04-16T21:26:40.986546"
     },
     {
         "id": "TICKET-1044",
@@ -401,8 +401,8 @@
         "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
         "priority": "P3",
         "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-10-09T23:01:51.060645",
-        "resolved_at": "2026-04-26T23:01:51.060651"
+        "created_at": "2025-12-03T21:26:40.986555",
+        "resolved_at": "2026-04-18T21:26:40.986562"
     },
     {
         "id": "TICKET-1045",
@@ -410,17 +410,17 @@
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-11-23T23:01:51.060661",
-        "resolved_at": "2026-04-26T23:01:51.060666"
+        "created_at": "2026-02-15T21:26:40.986571",
+        "resolved_at": "2026-04-12T21:26:40.986577"
     },
     {
         "id": "TICKET-1046",
-        "title": "Call dropping after 30 seconds (Case 46)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-04-18T23:01:51.060671",
-        "resolved_at": "2026-04-22T23:01:51.060674"
+        "title": "Intermittent audio loss (Case 46)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2025-11-19T21:26:40.986586",
+        "resolved_at": "2026-05-04T21:26:40.986592"
     },
     {
         "id": "TICKET-1047",
@@ -428,53 +428,53 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-12-05T23:01:51.060678",
-        "resolved_at": "2026-04-11T23:01:51.060681"
+        "created_at": "2025-11-28T21:26:40.986601",
+        "resolved_at": "2026-04-13T21:26:40.986606"
     },
     {
         "id": "TICKET-1048",
-        "title": "User cannot register phone (Case 48)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2026-02-27T23:01:51.060685",
-        "resolved_at": "2026-04-20T23:01:51.060688"
-    },
-    {
-        "id": "TICKET-1049",
-        "title": "Intermittent audio loss (Case 49)",
+        "title": "Intermittent audio loss (Case 48)",
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-06-08T23:01:51.060692",
-        "resolved_at": "2026-04-13T23:01:51.060695"
+        "created_at": "2025-09-15T21:26:40.986615",
+        "resolved_at": "2026-04-25T21:26:40.986620"
+    },
+    {
+        "id": "TICKET-1049",
+        "title": "Call dropping after 30 seconds (Case 49)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2025-12-21T21:26:40.986628",
+        "resolved_at": "2026-05-05T21:26:40.986634"
     },
     {
         "id": "TICKET-1050",
-        "title": "User cannot register phone (Case 50)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-11-12T23:01:51.060699",
-        "resolved_at": "2026-04-13T23:01:51.060703"
+        "title": "Intermittent audio loss (Case 50)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2025-06-03T21:26:40.986641",
+        "resolved_at": "2026-04-17T21:26:40.986647"
     },
     {
         "id": "TICKET-1051",
-        "title": "User cannot register phone (Case 51)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-07-08T23:01:51.060707",
-        "resolved_at": "2026-04-20T23:01:51.060710"
+        "title": "Call dropping after 30 seconds (Case 51)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2026-01-15T21:26:40.986655",
+        "resolved_at": "2026-04-14T21:26:40.986660"
     },
     {
         "id": "TICKET-1052",
-        "title": "User cannot register phone (Case 52)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-11-25T23:01:51.060718",
-        "resolved_at": "2026-05-02T23:01:51.060721"
+        "title": "Call dropping after 30 seconds (Case 52)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2025-06-11T21:26:40.986672",
+        "resolved_at": "2026-05-07T21:26:40.986678"
     },
     {
         "id": "TICKET-1053",
@@ -482,17 +482,17 @@
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-02-28T23:01:51.060725",
-        "resolved_at": "2026-04-19T23:01:51.060729"
+        "created_at": "2025-06-23T21:26:40.986687",
+        "resolved_at": "2026-04-17T21:26:40.986692"
     },
     {
         "id": "TICKET-1054",
-        "title": "Call dropping after 30 seconds (Case 54)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-11-27T23:01:51.060733",
-        "resolved_at": "2026-05-04T23:01:51.060736"
+        "title": "Intermittent audio loss (Case 54)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2025-06-27T21:26:40.986700",
+        "resolved_at": "2026-04-16T21:26:40.986706"
     },
     {
         "id": "TICKET-1055",
@@ -500,35 +500,35 @@
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-04-13T23:01:51.060740",
-        "resolved_at": "2026-04-13T23:01:51.060743"
+        "created_at": "2026-04-05T21:26:40.986715",
+        "resolved_at": "2026-05-04T21:26:40.986721"
     },
     {
         "id": "TICKET-1056",
-        "title": "User cannot register phone (Case 56)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2026-04-22T23:01:51.060747",
-        "resolved_at": "2026-04-06T23:01:51.060750"
+        "title": "Intermittent audio loss (Case 56)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2025-06-26T21:26:40.986730",
+        "resolved_at": "2026-05-10T21:26:40.986737"
     },
     {
         "id": "TICKET-1057",
-        "title": "Call dropping after 30 seconds (Case 57)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-09-19T23:01:51.060754",
-        "resolved_at": "2026-04-30T23:01:51.060757"
+        "title": "Intermittent audio loss (Case 57)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2025-11-16T21:26:40.986746",
+        "resolved_at": "2026-05-09T21:26:40.986752"
     },
     {
         "id": "TICKET-1058",
-        "title": "User cannot register phone (Case 58)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2026-03-25T23:01:51.060762",
-        "resolved_at": "2026-04-24T23:01:51.060765"
+        "title": "Call dropping after 30 seconds (Case 58)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2026-04-21T21:26:40.986761",
+        "resolved_at": "2026-04-12T21:26:40.986768"
     },
     {
         "id": "TICKET-1059",
@@ -536,44 +536,44 @@
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-08-02T23:01:51.060769",
-        "resolved_at": "2026-04-25T23:01:51.060772"
+        "created_at": "2026-02-19T21:26:40.986777",
+        "resolved_at": "2026-05-06T21:26:40.986784"
     },
     {
         "id": "TICKET-1060",
-        "title": "Call dropping after 30 seconds (Case 60)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-05-18T23:01:51.060776",
-        "resolved_at": "2026-04-17T23:01:51.060779"
+        "title": "Intermittent audio loss (Case 60)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2026-03-12T21:26:40.986793",
+        "resolved_at": "2026-04-23T21:26:40.986799"
     },
     {
         "id": "TICKET-1061",
-        "title": "Call dropping after 30 seconds (Case 61)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-04-06T23:01:51.060783",
-        "resolved_at": "2026-04-09T23:01:51.060786"
+        "title": "User cannot register phone (Case 61)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2026-03-12T21:26:40.986808",
+        "resolved_at": "2026-05-11T21:26:40.986817"
     },
     {
         "id": "TICKET-1062",
-        "title": "User cannot register phone (Case 62)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-06-12T23:01:51.060790",
-        "resolved_at": "2026-04-25T23:01:51.060793"
+        "title": "Intermittent audio loss (Case 62)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2025-05-20T21:26:40.986826",
+        "resolved_at": "2026-05-12T21:26:40.986832"
     },
     {
         "id": "TICKET-1063",
-        "title": "User cannot register phone (Case 63)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-09-17T23:01:51.060797",
-        "resolved_at": "2026-04-09T23:01:51.060800"
+        "title": "Call dropping after 30 seconds (Case 63)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2025-06-13T21:26:40.986841",
+        "resolved_at": "2026-04-15T21:26:40.986847"
     },
     {
         "id": "TICKET-1064",
@@ -581,35 +581,35 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-07-11T23:01:51.060807",
-        "resolved_at": "2026-04-17T23:01:51.060810"
+        "created_at": "2026-01-09T21:26:40.986855",
+        "resolved_at": "2026-05-07T21:26:40.986861"
     },
     {
         "id": "TICKET-1065",
-        "title": "Intermittent audio loss (Case 65)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-12-09T23:01:51.060815",
-        "resolved_at": "2026-04-19T23:01:51.060818"
-    },
-    {
-        "id": "TICKET-1066",
-        "title": "Call dropping after 30 seconds (Case 66)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-05-19T23:01:51.060822",
-        "resolved_at": "2026-04-08T23:01:51.060825"
-    },
-    {
-        "id": "TICKET-1067",
-        "title": "User cannot register phone (Case 67)",
+        "title": "User cannot register phone (Case 65)",
         "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
         "priority": "P3",
         "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-05-08T23:01:51.060829",
-        "resolved_at": "2026-04-05T23:01:51.060832"
+        "created_at": "2025-08-18T21:26:40.986872",
+        "resolved_at": "2026-04-17T21:26:40.986878"
+    },
+    {
+        "id": "TICKET-1066",
+        "title": "User cannot register phone (Case 66)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2025-06-01T21:26:40.986888",
+        "resolved_at": "2026-05-12T21:26:40.986894"
+    },
+    {
+        "id": "TICKET-1067",
+        "title": "Call dropping after 30 seconds (Case 67)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2025-07-26T21:26:40.986904",
+        "resolved_at": "2026-04-13T21:26:40.986912"
     },
     {
         "id": "TICKET-1068",
@@ -617,8 +617,8 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2026-01-20T23:01:51.060836",
-        "resolved_at": "2026-04-05T23:01:51.060840"
+        "created_at": "2025-05-22T21:26:40.986921",
+        "resolved_at": "2026-04-19T21:26:40.986928"
     },
     {
         "id": "TICKET-1069",
@@ -626,8 +626,8 @@
         "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
         "priority": "P3",
         "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2026-02-27T23:01:51.060844",
-        "resolved_at": "2026-04-22T23:01:51.060847"
+        "created_at": "2026-02-16T21:26:40.986938",
+        "resolved_at": "2026-04-17T21:26:40.986944"
     },
     {
         "id": "TICKET-1070",
@@ -635,17 +635,17 @@
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-02-27T23:01:51.060851",
-        "resolved_at": "2026-04-26T23:01:51.060854"
+        "created_at": "2025-09-12T21:26:40.986955",
+        "resolved_at": "2026-05-02T21:26:40.986961"
     },
     {
         "id": "TICKET-1071",
-        "title": "User cannot register phone (Case 71)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-08-08T23:01:51.060861",
-        "resolved_at": "2026-04-19T23:01:51.060864"
+        "title": "Call dropping after 30 seconds (Case 71)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2026-03-20T21:26:40.986979",
+        "resolved_at": "2026-04-23T21:26:40.986985"
     },
     {
         "id": "TICKET-1072",
@@ -653,53 +653,53 @@
         "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
         "priority": "P3",
         "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-11-13T23:01:51.060868",
-        "resolved_at": "2026-04-17T23:01:51.060871"
+        "created_at": "2026-05-09T21:26:40.986995",
+        "resolved_at": "2026-04-18T21:26:40.987005"
     },
     {
         "id": "TICKET-1073",
-        "title": "User cannot register phone (Case 73)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-06-03T23:01:51.060878",
-        "resolved_at": "2026-05-02T23:01:51.060881"
+        "title": "Call dropping after 30 seconds (Case 73)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2026-04-19T21:26:40.987014",
+        "resolved_at": "2026-05-01T21:26:40.987021"
     },
     {
         "id": "TICKET-1074",
-        "title": "Call dropping after 30 seconds (Case 74)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-07-06T23:01:51.060885",
-        "resolved_at": "2026-04-08T23:01:51.060889"
-    },
-    {
-        "id": "TICKET-1075",
-        "title": "Call dropping after 30 seconds (Case 75)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-08-19T23:01:51.060893",
-        "resolved_at": "2026-04-23T23:01:51.060896"
-    },
-    {
-        "id": "TICKET-1076",
-        "title": "Call dropping after 30 seconds (Case 76)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-07-16T23:01:51.060900",
-        "resolved_at": "2026-04-19T23:01:51.060903"
-    },
-    {
-        "id": "TICKET-1077",
-        "title": "Intermittent audio loss (Case 77)",
+        "title": "Intermittent audio loss (Case 74)",
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-10-10T23:01:51.060908",
-        "resolved_at": "2026-04-09T23:01:51.060911"
+        "created_at": "2025-11-02T21:26:40.987032",
+        "resolved_at": "2026-05-04T21:26:40.987038"
+    },
+    {
+        "id": "TICKET-1075",
+        "title": "User cannot register phone (Case 75)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2025-08-29T21:26:40.987048",
+        "resolved_at": "2026-05-03T21:26:40.987055"
+    },
+    {
+        "id": "TICKET-1076",
+        "title": "Intermittent audio loss (Case 76)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2026-02-07T21:26:40.987064",
+        "resolved_at": "2026-04-22T21:26:40.987071"
+    },
+    {
+        "id": "TICKET-1077",
+        "title": "Call dropping after 30 seconds (Case 77)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2026-01-25T21:26:40.987083",
+        "resolved_at": "2026-04-23T21:26:40.987091"
     },
     {
         "id": "TICKET-1078",
@@ -707,8 +707,8 @@
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-10-13T23:01:51.060916",
-        "resolved_at": "2026-04-23T23:01:51.060919"
+        "created_at": "2025-06-10T21:26:40.987101",
+        "resolved_at": "2026-04-14T21:26:40.987107"
     },
     {
         "id": "TICKET-1079",
@@ -716,8 +716,8 @@
         "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
         "priority": "P3",
         "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-10-10T23:01:51.060923",
-        "resolved_at": "2026-04-27T23:01:51.060926"
+        "created_at": "2025-05-17T21:26:40.987117",
+        "resolved_at": "2026-04-28T21:26:40.987124"
     },
     {
         "id": "TICKET-1080",
@@ -725,8 +725,8 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-06-01T23:01:51.060930",
-        "resolved_at": "2026-05-01T23:01:51.060933"
+        "created_at": "2025-07-18T21:26:40.987134",
+        "resolved_at": "2026-05-08T21:26:40.987143"
     },
     {
         "id": "TICKET-1081",
@@ -734,8 +734,8 @@
         "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
         "priority": "P3",
         "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2026-04-04T23:01:51.060938",
-        "resolved_at": "2026-04-25T23:01:51.060941"
+        "created_at": "2025-05-20T21:26:40.987155",
+        "resolved_at": "2026-04-21T21:26:40.987162"
     },
     {
         "id": "TICKET-1082",
@@ -743,17 +743,17 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-08-14T23:01:51.060945",
-        "resolved_at": "2026-04-30T23:01:51.060948"
+        "created_at": "2026-05-08T21:26:40.987172",
+        "resolved_at": "2026-04-23T21:26:40.987178"
     },
     {
         "id": "TICKET-1083",
-        "title": "Call dropping after 30 seconds (Case 83)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-11-10T23:01:51.060955",
-        "resolved_at": "2026-04-18T23:01:51.060958"
+        "title": "User cannot register phone (Case 83)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2025-07-24T21:26:40.987188",
+        "resolved_at": "2026-04-20T21:26:40.987196"
     },
     {
         "id": "TICKET-1084",
@@ -761,44 +761,44 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-12-14T23:01:51.060962",
-        "resolved_at": "2026-05-05T23:01:51.060966"
+        "created_at": "2026-03-15T21:26:40.987205",
+        "resolved_at": "2026-05-01T21:26:40.987212"
     },
     {
         "id": "TICKET-1085",
-        "title": "Intermittent audio loss (Case 85)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-06-25T23:01:51.060970",
-        "resolved_at": "2026-04-10T23:01:51.060973"
+        "title": "User cannot register phone (Case 85)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2026-01-21T21:26:40.987222",
+        "resolved_at": "2026-04-23T21:26:40.987228"
     },
     {
         "id": "TICKET-1086",
-        "title": "Intermittent audio loss (Case 86)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-10-15T23:01:51.060977",
-        "resolved_at": "2026-05-05T23:01:51.060980"
-    },
-    {
-        "id": "TICKET-1087",
-        "title": "Call dropping after 30 seconds (Case 87)",
+        "title": "Call dropping after 30 seconds (Case 86)",
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-12-01T23:01:51.060984",
-        "resolved_at": "2026-04-22T23:01:51.060987"
+        "created_at": "2025-11-20T21:26:40.987238",
+        "resolved_at": "2026-05-03T21:26:40.987244"
     },
     {
-        "id": "TICKET-1088",
-        "title": "Intermittent audio loss (Case 88)",
+        "id": "TICKET-1087",
+        "title": "Intermittent audio loss (Case 87)",
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-05-24T23:01:51.060991",
-        "resolved_at": "2026-04-11T23:01:51.060994"
+        "created_at": "2025-08-29T21:26:40.987256",
+        "resolved_at": "2026-04-19T21:26:40.987262"
+    },
+    {
+        "id": "TICKET-1088",
+        "title": "Call dropping after 30 seconds (Case 88)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2025-09-26T21:26:40.987272",
+        "resolved_at": "2026-05-10T21:26:40.987278"
     },
     {
         "id": "TICKET-1089",
@@ -806,35 +806,35 @@
         "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
         "priority": "P3",
         "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2026-02-20T23:01:51.060998",
-        "resolved_at": "2026-04-24T23:01:51.061001"
+        "created_at": "2025-06-23T21:26:40.987288",
+        "resolved_at": "2026-04-27T21:26:40.987294"
     },
     {
         "id": "TICKET-1090",
-        "title": "User cannot register phone (Case 90)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2026-04-29T23:01:51.061006",
-        "resolved_at": "2026-04-19T23:01:51.061008"
-    },
-    {
-        "id": "TICKET-1091",
-        "title": "Call dropping after 30 seconds (Case 91)",
+        "title": "Call dropping after 30 seconds (Case 90)",
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-05-23T23:01:51.061016",
-        "resolved_at": "2026-04-29T23:01:51.061019"
+        "created_at": "2025-05-29T21:26:40.987305",
+        "resolved_at": "2026-04-17T21:26:40.987310"
     },
     {
-        "id": "TICKET-1092",
-        "title": "User cannot register phone (Case 92)",
+        "id": "TICKET-1091",
+        "title": "User cannot register phone (Case 91)",
         "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
         "priority": "P3",
         "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2026-02-11T23:01:51.061023",
-        "resolved_at": "2026-04-17T23:01:51.061026"
+        "created_at": "2026-04-24T21:26:40.987326",
+        "resolved_at": "2026-04-24T21:26:40.987332"
+    },
+    {
+        "id": "TICKET-1092",
+        "title": "Intermittent audio loss (Case 92)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2026-03-24T21:26:40.987339",
+        "resolved_at": "2026-04-18T21:26:40.987344"
     },
     {
         "id": "TICKET-1093",
@@ -842,8 +842,8 @@
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-04-03T23:01:51.061034",
-        "resolved_at": "2026-04-14T23:01:51.061037"
+        "created_at": "2025-10-10T21:26:40.987361",
+        "resolved_at": "2026-04-26T21:26:40.987368"
     },
     {
         "id": "TICKET-1094",
@@ -851,8 +851,8 @@
         "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
         "priority": "P3",
         "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-07-03T23:01:51.061041",
-        "resolved_at": "2026-04-17T23:01:51.061044"
+        "created_at": "2025-08-09T21:26:40.987377",
+        "resolved_at": "2026-04-18T21:26:40.987384"
     },
     {
         "id": "TICKET-1095",
@@ -860,71 +860,71 @@
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-08-25T23:01:51.061048",
-        "resolved_at": "2026-04-18T23:01:51.061051"
+        "created_at": "2025-07-29T21:26:40.987394",
+        "resolved_at": "2026-04-25T21:26:40.987400"
     },
     {
         "id": "TICKET-1096",
-        "title": "Call dropping after 30 seconds (Case 96)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-04-06T23:01:51.061055",
-        "resolved_at": "2026-04-26T23:01:51.061058"
+        "title": "Intermittent audio loss (Case 96)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2026-01-07T21:26:40.987410",
+        "resolved_at": "2026-04-27T21:26:40.987418"
     },
     {
         "id": "TICKET-1097",
-        "title": "User cannot register phone (Case 97)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2026-02-19T23:01:51.061062",
-        "resolved_at": "2026-04-29T23:01:51.061065"
+        "title": "Call dropping after 30 seconds (Case 97)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2025-05-22T21:26:40.987427",
+        "resolved_at": "2026-04-26T21:26:40.987434"
     },
     {
         "id": "TICKET-1098",
-        "title": "Call dropping after 30 seconds (Case 98)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-03-25T23:01:51.061069",
-        "resolved_at": "2026-04-24T23:01:51.061072"
+        "title": "User cannot register phone (Case 98)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2025-06-16T21:26:40.987443",
+        "resolved_at": "2026-05-05T21:26:40.987450"
     },
     {
         "id": "TICKET-1099",
-        "title": "Intermittent audio loss (Case 99)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2026-02-11T23:01:51.061077",
-        "resolved_at": "2026-05-04T23:01:51.061080"
-    },
-    {
-        "id": "TICKET-1100",
-        "title": "Intermittent audio loss (Case 100)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-11-12T23:01:51.061084",
-        "resolved_at": "2026-04-19T23:01:51.061087"
-    },
-    {
-        "id": "TICKET-1101",
-        "title": "Intermittent audio loss (Case 101)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-10-20T23:01:51.061091",
-        "resolved_at": "2026-04-20T23:01:51.061094"
-    },
-    {
-        "id": "TICKET-1102",
-        "title": "Call dropping after 30 seconds (Case 102)",
+        "title": "Call dropping after 30 seconds (Case 99)",
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-01-07T23:01:51.061098",
-        "resolved_at": "2026-04-11T23:01:51.061104"
+        "created_at": "2026-03-17T21:26:40.987460",
+        "resolved_at": "2026-04-24T21:26:40.987468"
+    },
+    {
+        "id": "TICKET-1100",
+        "title": "User cannot register phone (Case 100)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2025-05-17T21:26:40.987481",
+        "resolved_at": "2026-05-08T21:26:40.987487"
+    },
+    {
+        "id": "TICKET-1101",
+        "title": "User cannot register phone (Case 101)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2026-01-04T21:26:40.987497",
+        "resolved_at": "2026-05-04T21:26:40.987503"
+    },
+    {
+        "id": "TICKET-1102",
+        "title": "Intermittent audio loss (Case 102)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2026-04-19T21:26:40.987513",
+        "resolved_at": "2026-05-05T21:26:40.987519"
     },
     {
         "id": "TICKET-1103",
@@ -932,8 +932,8 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-08-13T23:01:51.061109",
-        "resolved_at": "2026-04-17T23:01:51.061112"
+        "created_at": "2025-08-11T21:26:40.987533",
+        "resolved_at": "2026-04-19T21:26:40.987540"
     },
     {
         "id": "TICKET-1104",
@@ -941,17 +941,17 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2026-04-22T23:01:51.061116",
-        "resolved_at": "2026-04-23T23:01:51.061119"
+        "created_at": "2025-10-09T21:26:40.987550",
+        "resolved_at": "2026-05-04T21:26:40.987556"
     },
     {
         "id": "TICKET-1105",
-        "title": "Call dropping after 30 seconds (Case 105)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-05-11T23:01:51.061126",
-        "resolved_at": "2026-04-30T23:01:51.061130"
+        "title": "Intermittent audio loss (Case 105)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2025-07-31T21:26:40.987566",
+        "resolved_at": "2026-05-03T21:26:40.987573"
     },
     {
         "id": "TICKET-1106",
@@ -959,17 +959,17 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-10-07T23:01:51.061134",
-        "resolved_at": "2026-04-29T23:01:51.061137"
+        "created_at": "2025-12-25T21:26:40.987584",
+        "resolved_at": "2026-05-01T21:26:40.987591"
     },
     {
         "id": "TICKET-1107",
-        "title": "Intermittent audio loss (Case 107)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-06-29T23:01:51.061141",
-        "resolved_at": "2026-04-27T23:01:51.061144"
+        "title": "User cannot register phone (Case 107)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2026-02-08T21:26:40.987600",
+        "resolved_at": "2026-05-11T21:26:40.987607"
     },
     {
         "id": "TICKET-1108",
@@ -977,17 +977,17 @@
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-04-19T23:01:51.061148",
-        "resolved_at": "2026-04-10T23:01:51.061151"
+        "created_at": "2025-10-10T21:26:40.987617",
+        "resolved_at": "2026-04-26T21:26:40.987623"
     },
     {
         "id": "TICKET-1109",
-        "title": "Intermittent audio loss (Case 109)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-06-16T23:01:51.061156",
-        "resolved_at": "2026-04-20T23:01:51.061159"
+        "title": "Call dropping after 30 seconds (Case 109)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2025-07-21T21:26:40.987636",
+        "resolved_at": "2026-04-27T21:26:40.987642"
     },
     {
         "id": "TICKET-1110",
@@ -995,26 +995,26 @@
         "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
         "priority": "P3",
         "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-07-08T23:01:51.061166",
-        "resolved_at": "2026-04-14T23:01:51.061169"
+        "created_at": "2025-10-09T21:26:40.987656",
+        "resolved_at": "2026-04-17T21:26:40.987663"
     },
     {
         "id": "TICKET-1111",
-        "title": "User cannot register phone (Case 111)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2026-04-13T23:01:51.061173",
-        "resolved_at": "2026-04-24T23:01:51.061177"
+        "title": "Intermittent audio loss (Case 111)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2025-05-29T21:26:40.987672",
+        "resolved_at": "2026-04-21T21:26:40.987679"
     },
     {
         "id": "TICKET-1112",
-        "title": "Call dropping after 30 seconds (Case 112)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-10-09T23:01:51.061181",
-        "resolved_at": "2026-04-07T23:01:51.061184"
+        "title": "Intermittent audio loss (Case 112)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2026-01-24T21:26:40.987690",
+        "resolved_at": "2026-05-11T21:26:40.987696"
     },
     {
         "id": "TICKET-1113",
@@ -1022,8 +1022,8 @@
         "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
         "priority": "P3",
         "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2026-03-16T23:01:51.061188",
-        "resolved_at": "2026-04-24T23:01:51.061191"
+        "created_at": "2026-02-13T21:26:40.987705",
+        "resolved_at": "2026-04-21T21:26:40.987712"
     },
     {
         "id": "TICKET-1114",
@@ -1031,17 +1031,17 @@
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-06-13T23:01:51.061196",
-        "resolved_at": "2026-04-28T23:01:51.061199"
+        "created_at": "2025-06-30T21:26:40.987721",
+        "resolved_at": "2026-04-26T21:26:40.987728"
     },
     {
         "id": "TICKET-1115",
-        "title": "Call dropping after 30 seconds (Case 115)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-01-23T23:01:51.061207",
-        "resolved_at": "2026-04-26T23:01:51.061210"
+        "title": "User cannot register phone (Case 115)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2026-03-28T21:26:40.987738",
+        "resolved_at": "2026-05-01T21:26:40.987747"
     },
     {
         "id": "TICKET-1116",
@@ -1049,8 +1049,8 @@
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-03-31T23:01:51.061214",
-        "resolved_at": "2026-04-30T23:01:51.061217"
+        "created_at": "2025-09-05T21:26:40.987756",
+        "resolved_at": "2026-04-30T21:26:40.987799"
     },
     {
         "id": "TICKET-1117",
@@ -1058,44 +1058,44 @@
         "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
         "priority": "P3",
         "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-11-13T23:01:51.061222",
-        "resolved_at": "2026-05-03T23:01:51.061225"
+        "created_at": "2025-06-14T21:26:40.987814",
+        "resolved_at": "2026-05-08T21:26:40.987821"
     },
     {
         "id": "TICKET-1118",
-        "title": "User cannot register phone (Case 118)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2026-03-02T23:01:51.061229",
-        "resolved_at": "2026-04-24T23:01:51.061232"
-    },
-    {
-        "id": "TICKET-1119",
-        "title": "Call dropping after 30 seconds (Case 119)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-06-25T23:01:51.061237",
-        "resolved_at": "2026-04-25T23:01:51.061240"
-    },
-    {
-        "id": "TICKET-1120",
-        "title": "Call dropping after 30 seconds (Case 120)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-01-12T23:01:51.061244",
-        "resolved_at": "2026-04-20T23:01:51.061247"
-    },
-    {
-        "id": "TICKET-1121",
-        "title": "Intermittent audio loss (Case 121)",
+        "title": "Intermittent audio loss (Case 118)",
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2026-02-24T23:01:51.061251",
-        "resolved_at": "2026-04-10T23:01:51.061254"
+        "created_at": "2026-01-26T21:26:40.987837",
+        "resolved_at": "2026-05-07T21:26:40.987844"
+    },
+    {
+        "id": "TICKET-1119",
+        "title": "Intermittent audio loss (Case 119)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2025-08-16T21:26:40.987858",
+        "resolved_at": "2026-05-04T21:26:40.987865"
+    },
+    {
+        "id": "TICKET-1120",
+        "title": "User cannot register phone (Case 120)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2026-01-02T21:26:40.987875",
+        "resolved_at": "2026-04-18T21:26:40.987882"
+    },
+    {
+        "id": "TICKET-1121",
+        "title": "Call dropping after 30 seconds (Case 121)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2025-07-17T21:26:40.987894",
+        "resolved_at": "2026-04-18T21:26:40.987900"
     },
     {
         "id": "TICKET-1122",
@@ -1103,17 +1103,17 @@
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-09-20T23:01:51.061259",
-        "resolved_at": "2026-05-05T23:01:51.061262"
+        "created_at": "2025-12-03T21:26:40.987910",
+        "resolved_at": "2026-05-06T21:26:40.987917"
     },
     {
         "id": "TICKET-1123",
-        "title": "User cannot register phone (Case 123)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-07-22T23:01:51.061268",
-        "resolved_at": "2026-04-21T23:01:51.061272"
+        "title": "Call dropping after 30 seconds (Case 123)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2025-07-24T21:26:40.987926",
+        "resolved_at": "2026-05-06T21:26:40.987933"
     },
     {
         "id": "TICKET-1124",
@@ -1121,26 +1121,26 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-11-29T23:01:51.061276",
-        "resolved_at": "2026-04-12T23:01:51.061279"
+        "created_at": "2026-03-21T21:26:40.987942",
+        "resolved_at": "2026-05-01T21:26:40.987951"
     },
     {
         "id": "TICKET-1125",
-        "title": "Intermittent audio loss (Case 125)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-09-01T23:01:51.061283",
-        "resolved_at": "2026-04-26T23:01:51.061286"
+        "title": "User cannot register phone (Case 125)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2025-05-24T21:26:40.987960",
+        "resolved_at": "2026-04-29T21:26:40.987967"
     },
     {
         "id": "TICKET-1126",
-        "title": "Intermittent audio loss (Case 126)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-05-31T23:01:51.061290",
-        "resolved_at": "2026-05-03T23:01:51.061293"
+        "title": "Call dropping after 30 seconds (Case 126)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2025-08-22T21:26:40.987977",
+        "resolved_at": "2026-04-17T21:26:40.987983"
     },
     {
         "id": "TICKET-1127",
@@ -1148,17 +1148,17 @@
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-04-12T23:01:51.061297",
-        "resolved_at": "2026-04-07T23:01:51.061301"
+        "created_at": "2025-10-13T21:26:40.987996",
+        "resolved_at": "2026-05-08T21:26:40.988003"
     },
     {
         "id": "TICKET-1128",
-        "title": "User cannot register phone (Case 128)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-05-11T23:01:51.061305",
-        "resolved_at": "2026-04-18T23:01:51.061308"
+        "title": "Call dropping after 30 seconds (Case 128)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2025-12-09T21:26:40.988014",
+        "resolved_at": "2026-04-18T21:26:40.988021"
     },
     {
         "id": "TICKET-1129",
@@ -1166,8 +1166,8 @@
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-02-01T23:01:51.061313",
-        "resolved_at": "2026-04-14T23:01:51.061317"
+        "created_at": "2025-09-03T21:26:40.988035",
+        "resolved_at": "2026-04-25T21:26:40.988041"
     },
     {
         "id": "TICKET-1130",
@@ -1175,26 +1175,26 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-12-14T23:01:51.061324",
-        "resolved_at": "2026-04-20T23:01:51.061327"
+        "created_at": "2026-02-02T21:26:40.988054",
+        "resolved_at": "2026-05-03T21:26:40.988061"
     },
     {
         "id": "TICKET-1131",
-        "title": "User cannot register phone (Case 131)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2026-03-24T23:01:51.061331",
-        "resolved_at": "2026-04-19T23:01:51.061334"
-    },
-    {
-        "id": "TICKET-1132",
-        "title": "Call dropping after 30 seconds (Case 132)",
+        "title": "Call dropping after 30 seconds (Case 131)",
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-06-25T23:01:51.061338",
-        "resolved_at": "2026-05-01T23:01:51.061341"
+        "created_at": "2026-01-19T21:26:40.988073",
+        "resolved_at": "2026-05-11T21:26:40.988080"
+    },
+    {
+        "id": "TICKET-1132",
+        "title": "User cannot register phone (Case 132)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2025-10-07T21:26:40.988090",
+        "resolved_at": "2026-04-21T21:26:40.988096"
     },
     {
         "id": "TICKET-1133",
@@ -1202,35 +1202,35 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2026-03-26T23:01:51.061346",
-        "resolved_at": "2026-04-18T23:01:51.061348"
+        "created_at": "2025-07-08T21:26:40.988106",
+        "resolved_at": "2026-04-29T21:26:40.988112"
     },
     {
         "id": "TICKET-1134",
-        "title": "User cannot register phone (Case 134)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2026-02-06T23:01:51.061352",
-        "resolved_at": "2026-05-03T23:01:51.061356"
-    },
-    {
-        "id": "TICKET-1135",
-        "title": "Call dropping after 30 seconds (Case 135)",
+        "title": "Call dropping after 30 seconds (Case 134)",
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-07-04T23:01:51.061360",
-        "resolved_at": "2026-04-29T23:01:51.061363"
+        "created_at": "2026-04-26T21:26:40.988124",
+        "resolved_at": "2026-04-28T21:26:40.988131"
     },
     {
-        "id": "TICKET-1136",
-        "title": "Intermittent audio loss (Case 136)",
+        "id": "TICKET-1135",
+        "title": "Intermittent audio loss (Case 135)",
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2026-03-02T23:01:51.061368",
-        "resolved_at": "2026-04-18T23:01:51.061371"
+        "created_at": "2025-10-26T21:26:40.988144",
+        "resolved_at": "2026-04-16T21:26:40.988150"
+    },
+    {
+        "id": "TICKET-1136",
+        "title": "Call dropping after 30 seconds (Case 136)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2025-12-18T21:26:40.988160",
+        "resolved_at": "2026-05-01T21:26:40.988166"
     },
     {
         "id": "TICKET-1137",
@@ -1238,8 +1238,8 @@
         "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
         "priority": "P3",
         "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2026-04-10T23:01:51.061377",
-        "resolved_at": "2026-04-25T23:01:51.061380"
+        "created_at": "2025-09-17T21:26:40.988177",
+        "resolved_at": "2026-04-22T21:26:40.988185"
     },
     {
         "id": "TICKET-1138",
@@ -1247,8 +1247,8 @@
         "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
         "priority": "P3",
         "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2026-03-08T23:01:51.061384",
-        "resolved_at": "2026-04-24T23:01:51.061388"
+        "created_at": "2026-01-08T21:26:40.988194",
+        "resolved_at": "2026-04-26T21:26:40.988201"
     },
     {
         "id": "TICKET-1139",
@@ -1256,17 +1256,17 @@
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-06-21T23:01:51.061392",
-        "resolved_at": "2026-04-19T23:01:51.061395"
+        "created_at": "2026-04-17T21:26:40.988214",
+        "resolved_at": "2026-04-26T21:26:40.988221"
     },
     {
         "id": "TICKET-1140",
-        "title": "Intermittent audio loss (Case 140)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2026-01-20T23:01:51.061399",
-        "resolved_at": "2026-05-04T23:01:51.061402"
+        "title": "Call dropping after 30 seconds (Case 140)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2026-04-09T21:26:40.988230",
+        "resolved_at": "2026-04-20T21:26:40.988239"
     },
     {
         "id": "TICKET-1141",
@@ -1274,26 +1274,26 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2026-01-26T23:01:51.061409",
-        "resolved_at": "2026-04-08T23:01:51.061412"
+        "created_at": "2025-06-13T21:26:40.988249",
+        "resolved_at": "2026-05-11T21:26:40.988256"
     },
     {
         "id": "TICKET-1142",
-        "title": "Intermittent audio loss (Case 142)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2026-01-12T23:01:51.061416",
-        "resolved_at": "2026-05-03T23:01:51.061419"
+        "title": "Call dropping after 30 seconds (Case 142)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2026-03-15T21:26:40.988266",
+        "resolved_at": "2026-04-14T21:26:40.988272"
     },
     {
         "id": "TICKET-1143",
-        "title": "Intermittent audio loss (Case 143)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-07-21T23:01:51.061424",
-        "resolved_at": "2026-04-15T23:01:51.061427"
+        "title": "Call dropping after 30 seconds (Case 143)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2026-01-10T21:26:40.988282",
+        "resolved_at": "2026-05-12T21:26:40.988290"
     },
     {
         "id": "TICKET-1144",
@@ -1301,26 +1301,26 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2026-01-29T23:01:51.061431",
-        "resolved_at": "2026-04-30T23:01:51.061434"
+        "created_at": "2025-09-22T21:26:40.988300",
+        "resolved_at": "2026-04-27T21:26:40.988307"
     },
     {
         "id": "TICKET-1145",
-        "title": "Intermittent audio loss (Case 145)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2026-02-18T23:01:51.061438",
-        "resolved_at": "2026-04-24T23:01:51.061441"
+        "title": "Call dropping after 30 seconds (Case 145)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2026-02-09T21:26:40.988316",
+        "resolved_at": "2026-05-04T21:26:40.988323"
     },
     {
         "id": "TICKET-1146",
-        "title": "User cannot register phone (Case 146)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2026-01-10T23:01:51.061445",
-        "resolved_at": "2026-05-01T23:01:51.061448"
+        "title": "Intermittent audio loss (Case 146)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2026-03-04T21:26:40.988332",
+        "resolved_at": "2026-04-15T21:26:40.988339"
     },
     {
         "id": "TICKET-1147",
@@ -1328,35 +1328,35 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2026-01-24T23:01:51.061452",
-        "resolved_at": "2026-04-17T23:01:51.061455"
+        "created_at": "2025-06-18T21:26:40.988349",
+        "resolved_at": "2026-04-24T21:26:40.988357"
     },
     {
         "id": "TICKET-1148",
-        "title": "User cannot register phone (Case 148)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2026-04-01T23:01:51.061459",
-        "resolved_at": "2026-05-05T23:01:51.061463"
+        "title": "Intermittent audio loss (Case 148)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2025-08-20T21:26:40.988367",
+        "resolved_at": "2026-05-11T21:26:40.988373"
     },
     {
         "id": "TICKET-1149",
-        "title": "User cannot register phone (Case 149)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-11-30T23:01:51.061470",
-        "resolved_at": "2026-04-11T23:01:51.061474"
-    },
-    {
-        "id": "TICKET-1150",
-        "title": "Call dropping after 30 seconds (Case 150)",
+        "title": "Call dropping after 30 seconds (Case 149)",
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-01-01T23:01:51.061478",
-        "resolved_at": "2026-04-29T23:01:51.061481"
+        "created_at": "2025-11-14T21:26:40.988388",
+        "resolved_at": "2026-04-24T21:26:40.988395"
+    },
+    {
+        "id": "TICKET-1150",
+        "title": "User cannot register phone (Case 150)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2025-12-24T21:26:40.988405",
+        "resolved_at": "2026-04-20T21:26:40.988413"
     },
     {
         "id": "TICKET-1151",
@@ -1364,80 +1364,80 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-07-28T23:01:51.061485",
-        "resolved_at": "2026-05-02T23:01:51.061489"
+        "created_at": "2025-09-26T21:26:40.988423",
+        "resolved_at": "2026-04-13T21:26:40.988429"
     },
     {
         "id": "TICKET-1152",
-        "title": "Call dropping after 30 seconds (Case 152)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-04-13T23:01:51.061493",
-        "resolved_at": "2026-04-20T23:01:51.061496"
-    },
-    {
-        "id": "TICKET-1153",
-        "title": "User cannot register phone (Case 153)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-07-20T23:01:51.061500",
-        "resolved_at": "2026-04-08T23:01:51.061503"
-    },
-    {
-        "id": "TICKET-1154",
-        "title": "User cannot register phone (Case 154)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-09-30T23:01:51.061507",
-        "resolved_at": "2026-04-08T23:01:51.061510"
-    },
-    {
-        "id": "TICKET-1155",
-        "title": "Intermittent audio loss (Case 155)",
+        "title": "Intermittent audio loss (Case 152)",
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-07-18T23:01:51.061514",
-        "resolved_at": "2026-04-17T23:01:51.061517"
+        "created_at": "2025-10-17T21:26:40.988439",
+        "resolved_at": "2026-05-01T21:26:40.988447"
+    },
+    {
+        "id": "TICKET-1153",
+        "title": "Call dropping after 30 seconds (Case 153)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2025-12-12T21:26:40.988456",
+        "resolved_at": "2026-04-15T21:26:40.988462"
+    },
+    {
+        "id": "TICKET-1154",
+        "title": "Call dropping after 30 seconds (Case 154)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2025-11-02T21:26:40.988474",
+        "resolved_at": "2026-04-23T21:26:40.988481"
+    },
+    {
+        "id": "TICKET-1155",
+        "title": "Call dropping after 30 seconds (Case 155)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2025-07-19T21:26:40.988490",
+        "resolved_at": "2026-05-01T21:26:40.988497"
     },
     {
         "id": "TICKET-1156",
-        "title": "Call dropping after 30 seconds (Case 156)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-12-06T23:01:51.061521",
-        "resolved_at": "2026-04-11T23:01:51.061525"
+        "title": "User cannot register phone (Case 156)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2025-11-15T21:26:40.988507",
+        "resolved_at": "2026-05-05T21:26:40.988513"
     },
     {
         "id": "TICKET-1157",
-        "title": "User cannot register phone (Case 157)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-10-23T23:01:51.061529",
-        "resolved_at": "2026-04-25T23:01:51.061532"
-    },
-    {
-        "id": "TICKET-1158",
-        "title": "Call dropping after 30 seconds (Case 158)",
+        "title": "Call dropping after 30 seconds (Case 157)",
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-11-03T23:01:51.061537",
-        "resolved_at": "2026-04-23T23:01:51.061540"
+        "created_at": "2026-01-31T21:26:40.988528",
+        "resolved_at": "2026-05-02T21:26:40.988534"
     },
     {
-        "id": "TICKET-1159",
-        "title": "User cannot register phone (Case 159)",
+        "id": "TICKET-1158",
+        "title": "User cannot register phone (Case 158)",
         "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
         "priority": "P3",
         "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-10-08T23:01:51.061544",
-        "resolved_at": "2026-05-04T23:01:51.061550"
+        "created_at": "2025-09-18T21:26:40.988544",
+        "resolved_at": "2026-04-24T21:26:40.988551"
+    },
+    {
+        "id": "TICKET-1159",
+        "title": "Call dropping after 30 seconds (Case 159)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2026-03-13T21:26:40.988560",
+        "resolved_at": "2026-04-16T21:26:40.988570"
     },
     {
         "id": "TICKET-1160",
@@ -1445,107 +1445,107 @@
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-11-14T23:01:51.061554",
-        "resolved_at": "2026-04-21T23:01:51.061558"
+        "created_at": "2025-10-05T21:26:40.988579",
+        "resolved_at": "2026-05-09T21:26:40.988588"
     },
     {
         "id": "TICKET-1161",
-        "title": "Intermittent audio loss (Case 161)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-12-07T23:01:51.061562",
-        "resolved_at": "2026-04-16T23:01:51.061566"
+        "title": "User cannot register phone (Case 161)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2026-04-28T21:26:40.988597",
+        "resolved_at": "2026-04-26T21:26:40.988604"
     },
     {
         "id": "TICKET-1162",
-        "title": "Call dropping after 30 seconds (Case 162)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-02-26T23:01:51.061570",
-        "resolved_at": "2026-04-14T23:01:51.061573"
+        "title": "User cannot register phone (Case 162)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2025-11-14T21:26:40.988613",
+        "resolved_at": "2026-04-29T21:26:40.988620"
     },
     {
         "id": "TICKET-1163",
-        "title": "User cannot register phone (Case 163)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-06-22T23:01:51.061578",
-        "resolved_at": "2026-05-01T23:01:51.061581"
+        "title": "Intermittent audio loss (Case 163)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2025-08-08T21:26:40.988629",
+        "resolved_at": "2026-05-01T21:26:40.988636"
     },
     {
         "id": "TICKET-1164",
-        "title": "Call dropping after 30 seconds (Case 164)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-03-25T23:01:51.061586",
-        "resolved_at": "2026-04-21T23:01:51.061589"
-    },
-    {
-        "id": "TICKET-1165",
-        "title": "Intermittent audio loss (Case 165)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-09-20T23:01:51.061594",
-        "resolved_at": "2026-04-20T23:01:51.061602"
-    },
-    {
-        "id": "TICKET-1166",
-        "title": "Intermittent audio loss (Case 166)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-08-28T23:01:51.061614",
-        "resolved_at": "2026-04-17T23:01:51.061621"
-    },
-    {
-        "id": "TICKET-1167",
-        "title": "Intermittent audio loss (Case 167)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-11-20T23:01:51.061631",
-        "resolved_at": "2026-05-04T23:01:51.061636"
-    },
-    {
-        "id": "TICKET-1168",
-        "title": "Call dropping after 30 seconds (Case 168)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-12-07T23:01:51.061642",
-        "resolved_at": "2026-04-14T23:01:51.061648"
-    },
-    {
-        "id": "TICKET-1169",
-        "title": "Intermittent audio loss (Case 169)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-12-11T23:01:51.061665",
-        "resolved_at": "2026-04-13T23:01:51.061671"
-    },
-    {
-        "id": "TICKET-1170",
-        "title": "User cannot register phone (Case 170)",
+        "title": "User cannot register phone (Case 164)",
         "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
         "priority": "P3",
         "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2026-04-01T23:01:51.061680",
-        "resolved_at": "2026-04-23T23:01:51.061687"
+        "created_at": "2026-03-01T21:26:40.988647",
+        "resolved_at": "2026-04-21T21:26:40.988654"
     },
     {
-        "id": "TICKET-1171",
-        "title": "Intermittent audio loss (Case 171)",
+        "id": "TICKET-1165",
+        "title": "Call dropping after 30 seconds (Case 165)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2025-06-27T21:26:40.988664",
+        "resolved_at": "2026-05-09T21:26:40.988671"
+    },
+    {
+        "id": "TICKET-1166",
+        "title": "User cannot register phone (Case 166)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2026-03-03T21:26:40.988680",
+        "resolved_at": "2026-05-10T21:26:40.988687"
+    },
+    {
+        "id": "TICKET-1167",
+        "title": "Call dropping after 30 seconds (Case 167)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2025-09-10T21:26:40.988701",
+        "resolved_at": "2026-05-03T21:26:40.988708"
+    },
+    {
+        "id": "TICKET-1168",
+        "title": "Intermittent audio loss (Case 168)",
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2026-04-18T23:01:51.061697",
-        "resolved_at": "2026-04-16T23:01:51.061704"
+        "created_at": "2026-03-03T21:26:40.988718",
+        "resolved_at": "2026-05-08T21:26:40.988724"
+    },
+    {
+        "id": "TICKET-1169",
+        "title": "User cannot register phone (Case 169)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2025-05-16T21:26:40.988737",
+        "resolved_at": "2026-05-01T21:26:40.988744"
+    },
+    {
+        "id": "TICKET-1170",
+        "title": "Intermittent audio loss (Case 170)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2026-04-29T21:26:40.988756",
+        "resolved_at": "2026-04-17T21:26:40.988762"
+    },
+    {
+        "id": "TICKET-1171",
+        "title": "Call dropping after 30 seconds (Case 171)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2025-07-21T21:26:40.988772",
+        "resolved_at": "2026-04-22T21:26:40.988779"
     },
     {
         "id": "TICKET-1172",
@@ -1553,8 +1553,8 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2026-01-18T23:01:51.061714",
-        "resolved_at": "2026-04-19T23:01:51.061720"
+        "created_at": "2026-03-28T21:26:40.988789",
+        "resolved_at": "2026-04-16T21:26:40.988796"
     },
     {
         "id": "TICKET-1173",
@@ -1562,8 +1562,8 @@
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-05-10T23:01:51.061732",
-        "resolved_at": "2026-04-17T23:01:51.061739"
+        "created_at": "2025-08-20T21:26:40.988808",
+        "resolved_at": "2026-04-19T21:26:40.988817"
     },
     {
         "id": "TICKET-1174",
@@ -1571,8 +1571,8 @@
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-11-20T23:01:51.061750",
-        "resolved_at": "2026-04-13T23:01:51.061757"
+        "created_at": "2025-05-22T21:26:40.988826",
+        "resolved_at": "2026-04-29T21:26:40.988832"
     },
     {
         "id": "TICKET-1175",
@@ -1580,17 +1580,17 @@
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-01-12T23:01:51.061767",
-        "resolved_at": "2026-04-29T23:01:51.061774"
+        "created_at": "2025-12-20T21:26:40.988841",
+        "resolved_at": "2026-05-01T21:26:40.988847"
     },
     {
         "id": "TICKET-1176",
-        "title": "Intermittent audio loss (Case 176)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-10-21T23:01:51.061784",
-        "resolved_at": "2026-04-28T23:01:51.061791"
+        "title": "User cannot register phone (Case 176)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2025-07-27T21:26:40.988857",
+        "resolved_at": "2026-04-17T21:26:40.988866"
     },
     {
         "id": "TICKET-1177",
@@ -1598,8 +1598,8 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2026-02-27T23:01:51.061800",
-        "resolved_at": "2026-04-23T23:01:51.061805"
+        "created_at": "2025-07-03T21:26:40.988876",
+        "resolved_at": "2026-04-21T21:26:40.988883"
     },
     {
         "id": "TICKET-1178",
@@ -1607,17 +1607,17 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-05-10T23:01:51.061815",
-        "resolved_at": "2026-04-26T23:01:51.061821"
+        "created_at": "2025-10-12T21:26:40.988892",
+        "resolved_at": "2026-05-07T21:26:40.988898"
     },
     {
         "id": "TICKET-1179",
-        "title": "Intermittent audio loss (Case 179)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2026-04-29T23:01:51.061836",
-        "resolved_at": "2026-04-22T23:01:51.061844"
+        "title": "User cannot register phone (Case 179)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2026-01-08T21:26:40.988911",
+        "resolved_at": "2026-05-08T21:26:40.988917"
     },
     {
         "id": "TICKET-1180",
@@ -1625,8 +1625,8 @@
         "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
         "priority": "P3",
         "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-11-26T23:01:51.061854",
-        "resolved_at": "2026-04-24T23:01:51.061858"
+        "created_at": "2025-10-01T21:26:40.988930",
+        "resolved_at": "2026-04-25T21:26:40.988936"
     },
     {
         "id": "TICKET-1181",
@@ -1634,26 +1634,26 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2026-04-09T23:01:51.061865",
-        "resolved_at": "2026-04-10T23:01:51.061869"
+        "created_at": "2025-09-14T21:26:40.988946",
+        "resolved_at": "2026-05-06T21:26:40.988953"
     },
     {
         "id": "TICKET-1182",
-        "title": "Intermittent audio loss (Case 182)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-12-17T23:01:51.061875",
-        "resolved_at": "2026-04-16T23:01:51.061879"
-    },
-    {
-        "id": "TICKET-1183",
-        "title": "User cannot register phone (Case 183)",
+        "title": "User cannot register phone (Case 182)",
         "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
         "priority": "P3",
         "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2026-02-28T23:01:51.061886",
-        "resolved_at": "2026-05-04T23:01:51.061890"
+        "created_at": "2025-05-28T21:26:40.988963",
+        "resolved_at": "2026-05-09T21:26:40.988970"
+    },
+    {
+        "id": "TICKET-1183",
+        "title": "Call dropping after 30 seconds (Case 183)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2025-11-30T21:26:40.988981",
+        "resolved_at": "2026-05-12T21:26:40.988988"
     },
     {
         "id": "TICKET-1184",
@@ -1661,26 +1661,26 @@
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-08-28T23:01:51.061896",
-        "resolved_at": "2026-04-24T23:01:51.061900"
+        "created_at": "2025-12-15T21:26:40.988997",
+        "resolved_at": "2026-04-26T21:26:40.989004"
     },
     {
         "id": "TICKET-1185",
-        "title": "Call dropping after 30 seconds (Case 185)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-09-09T23:01:51.061906",
-        "resolved_at": "2026-05-01T23:01:51.061911"
+        "title": "User cannot register phone (Case 185)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2025-11-11T21:26:40.989013",
+        "resolved_at": "2026-05-07T21:26:40.989019"
     },
     {
         "id": "TICKET-1186",
-        "title": "Call dropping after 30 seconds (Case 186)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-10-09T23:01:51.061917",
-        "resolved_at": "2026-04-29T23:01:51.061921"
+        "title": "Intermittent audio loss (Case 186)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2025-12-17T21:26:40.989029",
+        "resolved_at": "2026-04-28T21:26:40.989037"
     },
     {
         "id": "TICKET-1187",
@@ -1688,8 +1688,8 @@
         "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
         "priority": "P3",
         "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-05-25T23:01:51.061927",
-        "resolved_at": "2026-04-26T23:01:51.061931"
+        "created_at": "2025-05-28T21:26:40.989047",
+        "resolved_at": "2026-05-11T21:26:40.989053"
     },
     {
         "id": "TICKET-1188",
@@ -1697,71 +1697,71 @@
         "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
         "priority": "P1",
         "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-11-27T23:01:51.061940",
-        "resolved_at": "2026-04-19T23:01:51.061944"
+        "created_at": "2026-03-12T21:26:40.989066",
+        "resolved_at": "2026-05-03T21:26:40.989072"
     },
     {
         "id": "TICKET-1189",
-        "title": "Call dropping after 30 seconds (Case 189)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-01-04T23:01:51.061948",
-        "resolved_at": "2026-04-16T23:01:51.061951"
+        "title": "User cannot register phone (Case 189)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2026-03-01T21:26:40.989082",
+        "resolved_at": "2026-04-13T21:26:40.989090"
     },
     {
         "id": "TICKET-1190",
-        "title": "Intermittent audio loss (Case 190)",
-        "description": "One-way audio reported between London and NY offices.",
-        "priority": "P2",
-        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2026-01-18T23:01:51.061956",
-        "resolved_at": "2026-04-08T23:01:51.061959"
+        "title": "Call dropping after 30 seconds (Case 190)",
+        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
+        "priority": "P1",
+        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
+        "created_at": "2026-03-18T21:26:40.989103",
+        "resolved_at": "2026-04-27T21:26:40.989109"
     },
     {
         "id": "TICKET-1191",
-        "title": "User cannot register phone (Case 191)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2026-01-29T23:01:51.061963",
-        "resolved_at": "2026-04-26T23:01:51.061967"
-    },
-    {
-        "id": "TICKET-1192",
-        "title": "Call dropping after 30 seconds (Case 192)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-04-18T23:01:51.061971",
-        "resolved_at": "2026-05-05T23:01:51.061974"
-    },
-    {
-        "id": "TICKET-1193",
-        "title": "User cannot register phone (Case 193)",
-        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
-        "priority": "P3",
-        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
-        "created_at": "2025-12-06T23:01:51.061978",
-        "resolved_at": "2026-04-15T23:01:51.061982"
-    },
-    {
-        "id": "TICKET-1194",
-        "title": "Call dropping after 30 seconds (Case 194)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2026-03-30T23:01:51.061986",
-        "resolved_at": "2026-04-24T23:01:51.061989"
-    },
-    {
-        "id": "TICKET-1195",
-        "title": "Intermittent audio loss (Case 195)",
+        "title": "Intermittent audio loss (Case 191)",
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-07-12T23:01:51.061994",
-        "resolved_at": "2026-05-03T23:01:51.061997"
+        "created_at": "2026-03-27T21:26:40.989119",
+        "resolved_at": "2026-04-25T21:26:40.989126"
+    },
+    {
+        "id": "TICKET-1192",
+        "title": "Intermittent audio loss (Case 192)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2026-02-19T21:26:40.989136",
+        "resolved_at": "2026-04-29T21:26:40.989142"
+    },
+    {
+        "id": "TICKET-1193",
+        "title": "Intermittent audio loss (Case 193)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2025-12-08T21:26:40.989153",
+        "resolved_at": "2026-05-11T21:26:40.989160"
+    },
+    {
+        "id": "TICKET-1194",
+        "title": "Intermittent audio loss (Case 194)",
+        "description": "One-way audio reported between London and NY offices.",
+        "priority": "P2",
+        "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
+        "created_at": "2025-10-07T21:26:40.989169",
+        "resolved_at": "2026-05-01T21:26:40.989176"
+    },
+    {
+        "id": "TICKET-1195",
+        "title": "User cannot register phone (Case 195)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2025-07-18T21:26:40.989185",
+        "resolved_at": "2026-04-29T21:26:40.989192"
     },
     {
         "id": "TICKET-1196",
@@ -1769,8 +1769,8 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-07-03T23:01:51.062001",
-        "resolved_at": "2026-04-26T23:01:51.062004"
+        "created_at": "2025-12-10T21:26:40.989203",
+        "resolved_at": "2026-05-06T21:26:40.989210"
     },
     {
         "id": "TICKET-1197",
@@ -1778,25 +1778,25 @@
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-07-03T23:01:51.062008",
-        "resolved_at": "2026-04-11T23:01:51.062012"
+        "created_at": "2025-07-05T21:26:40.989219",
+        "resolved_at": "2026-05-06T21:26:40.989229"
     },
     {
         "id": "TICKET-1198",
-        "title": "Call dropping after 30 seconds (Case 198)",
-        "description": "Users reporting calls disconnect exactly at 30s mark. Possible Timer B issue.",
-        "priority": "P1",
-        "resolution_notes": "Increased SIP Timer B from 32 to 90 seconds on SBC Edge.",
-        "created_at": "2025-07-03T23:01:51.062016",
-        "resolved_at": "2026-05-04T23:01:51.062019"
-    },
-    {
-        "id": "TICKET-1199",
-        "title": "Intermittent audio loss (Case 199)",
+        "title": "Intermittent audio loss (Case 198)",
         "description": "One-way audio reported between London and NY offices.",
         "priority": "P2",
         "resolution_notes": "Fixed firewall rule for RTP port range 16384-32767.",
-        "created_at": "2025-08-27T23:01:51.062026",
-        "resolved_at": "2026-04-27T23:01:51.062030"
+        "created_at": "2026-03-11T21:26:40.989239",
+        "resolved_at": "2026-05-01T21:26:40.989246"
+    },
+    {
+        "id": "TICKET-1199",
+        "title": "User cannot register phone (Case 199)",
+        "description": "Remote worker unable to register Cisco 8841 phone. 403 Forbidden.",
+        "priority": "P3",
+        "resolution_notes": "Reset LDAP password and cleared stale registration on CUCM.",
+        "created_at": "2025-06-26T21:26:40.989260",
+        "resolved_at": "2026-04-21T21:26:40.989266"
     }
 ]
