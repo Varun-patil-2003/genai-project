@@ -77,18 +77,14 @@ class VectorRepository:
             if idx != -1 and idx < len(self.metadata):
                 results.append((self.metadata[idx]["text"], self.metadata[idx]))
         return results
+vector_repo = VectorRepository()
 
-
-# --- Test code to verify it works ---
-if __name__ == "__main__":
-    vector_repo = VectorRepository()
-
-    # Sample documents to test indexing
+if __name__ == "__main__":  # Test code to verify it works
     test_texts = [
         "React is a frontend framework for UI development.",
         "Node.js runs JavaScript on the server side.",
         "FAISS is an efficient library for dense vector similarity search.",
-    ]
+    ]     # Sample documents to test indexing
     test_metadata = [{"source": "web"}, {"source": "backend"}, {"source": "ai"}]
 
     print("\nAdding test documents...")
