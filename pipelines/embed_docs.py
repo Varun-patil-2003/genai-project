@@ -5,7 +5,7 @@ from PyPDF2 import PdfReader
 from utils.chunk_splitter import split_text
 
 def ingest_tickets():
-    with open('data/sample_tickets/tickets.json', 'r') as f:
+    with open('data/sample_ticket/tickets.json', 'r') as f:
         tickets = json.load(f)
 
     texts = []
