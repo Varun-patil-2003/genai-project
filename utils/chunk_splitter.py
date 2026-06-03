@@ -17,4 +17,4 @@ def split_text(text: str, chunk_size: int = 1000, overlap: int = 100) -> list:
         if start >= text_length or chunk_size <= overlap:
             break
 
-        return chunks
+    return chunks
