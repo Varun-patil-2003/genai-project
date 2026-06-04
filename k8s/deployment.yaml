@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: netops-ai-sentinel
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: netops-ai
+  template:
+    metadata:
+      labels:
+        app: netops-ai
+    spec:
+      containers:
+      - name: api-container
+        image: localhost/netops-ai:latest
+        ports:
+        - containerPort: 8000
+        env:
+        - name: GROQ_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: groq-secret
+              key: api-key
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: netops-ai-service
+spec:
+  selector:
+    app: netops-ai
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8000
+  type: LoadBalancer
