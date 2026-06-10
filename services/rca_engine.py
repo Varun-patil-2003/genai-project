@@ -59,7 +59,7 @@ class RCAEngine:
             str: Path to the final PDF report.
         """
         try:
-            context: self._gather_context(ticket_id, logs)
+            context = self._gather_context(ticket_id, logs)
 
             rca_text = self._generate_rca_text(context)
 
