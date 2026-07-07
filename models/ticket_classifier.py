@@ -27,7 +27,7 @@ class TicketClassifier:
             ('rf', RandomForestClassifier(n_estimators=100, random_state=42))
         ])
 
-        pipeline.fit(df['description'], df['category'])
+        pipeline.fit(df['description'], df['title'])
         joblib.dump(pipeline, self.model_path)
         self.model = pipeline
         print(f"Model trained and saved to {self.model_path}")
