@@ -1,6 +1,7 @@
 from fpdf import FPDF
 from typing import Dict
 import logging
+import os
 
 logger = logging.getLogger(__name__)
 
@@ -33,6 +34,7 @@ class RCAPDFGenerator:
             # Multi-cell handles line breaks automatically
             pdf.multi_cell(0, 10, content)
 
+            os.makedirs(self.output_path, exist_ok=True)
             file_name = f"{self.output_path}{report_id}_RCA.pdf"
             pdf.output(file_name)
             logger.info(f"Succefully generated RCA PDF at {file_name}")

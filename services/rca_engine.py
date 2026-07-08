@@ -17,24 +17,30 @@ class RCAEngine:
         self.pdf_gen = RCAPDFGenerator()
 
     def _gather_context(self, ticket_id: str, logs: List[str]) -> Dict[str, Any]:
-        ticket_info = f"Incident {ticket_id}: High priority connectivity failure in London Hub."
+        clean_logs = [line.strip() for line in logs if line and line.strip()]
+        ticket_info = (
+            f"Incident {ticket_id}: RCA requested for {len(clean_logs)} associated log lines."
+        )
 
-        anomalies = anomaly_service.scan_logs(logs)
+        anomalies = anomaly_service.scan_logs(clean_logs)
         anomaly_summary = str(anomalies)
+        log_excerpt = "\n".join(clean_logs[:25])
 
         historical_context = rag_service.answer_question(f"Past incidents similar to {ticket_info}")
 
         return {
-            "ticket-info": ticket_info,
+            "ticket_info": ticket_info,
             "anomalies": anomaly_summary,
-            "historical_context": historical_context
+            "historical_context": historical_context,
+            "log_excerpt": log_excerpt
         }
     
     def _generate_rca_text(self, context: Dict[str, Any]) -> str:
         prompt = RCAConfig.RCA_PROMPT_TEMPLATE.format(
             ticket_info=context['ticket_info'],
             anomalies=context['anomalies'],
-            historical_context=context['historical_context']
+            historical_context=context['historical_context'],
+            log_excerpt=context['log_excerpt']
         )
 
         try:

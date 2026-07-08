@@ -2,6 +2,7 @@ import streamlit as st
 import requests
 import pandas as pd
 from typing import List
+from pathlib import Path
 
 BACKEND_URL = "http://localhost:8000"
 
@@ -38,9 +39,9 @@ def call_api(endpoint: str, method: str = "GET", data: dict = None):
     try:
         url = f"{BACKEND_URL}{endpoint}"
         if method == "GET":
-            response = requests.get(url, timeout=10)
+            response = requests.get(url, timeout=20)
         else:
-            response = requests.post(url, json=data, timeout=10)
+            response = requests.post(url, json=data, timeout=20)
         
         if response.status_code == 200:
             return response.json()
@@ -49,6 +50,9 @@ def call_api(endpoint: str, method: str = "GET", data: dict = None):
             return None
     except requests.exceptions.ConnectionError:
         st.error("Cannot connect to Backend. Is FastAPI running at localhost:8000?")
+        return None
+    except requests.exceptions.ReadTimeout:
+        st.error("Backend request timed out. The server is still busy or blocked; check the FastAPI terminal logs.")
         return None
 
 # --- SIDEBAR NAVIGATION ---
@@ -99,7 +103,8 @@ elif page == "Anomaly Scanner":
                 if res and res.get("anomalies"):
                     st.success(f"Detected {len(res['anomalies'])} anomalies!")
                     for item in res['anomalies']:
-                        with st.expander(f"{item['label']} - {item['type']}"):
+                        count_label = f" x{item.get('count', 1)}" if item.get("count", 1) > 1 else ""
+                        with st.expander(f"{item['label']} - {item['type']}{count_label}"):
                             st.code(item['line'], language="log")
                             st.markdown(f"**AI Insight:** {item['ai_insight']}")
                 else:
@@ -131,6 +136,16 @@ elif page == "RCA Generator":
                     st.balloons()
                     st.success("RCA Report Generated Successfully!")
                     st.markdown(f"**File Path:** `{res['path']}`")
+                    pdf_path = Path(res["path"])
+                    if pdf_path.exists():
+                        st.download_button(
+                            label="Download RCA PDF",
+                            data=pdf_path.read_bytes(),
+                            file_name=pdf_path.name,
+                            mime="application/pdf"
+                        )
+                    else:
+                        st.warning("Report generated, but the PDF file was not found on the Streamlit host.")
                     st.info("The PDF has been saved to `data/processed/rca_reports/` on the server.")
         else:
             st.warning("Please enter both Ticket ID and Logs.")

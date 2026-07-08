@@ -15,6 +15,8 @@ class RCAConfig:
     INPUT DATA:
     - Ticket Details: {ticket_info}
     - Log Anomalies: {anomalies}
+    - Log Excerpt:
+    {log_excerpt}
     - Historical Context: {historical_context}
 
     The report MUST follow this professional structure:

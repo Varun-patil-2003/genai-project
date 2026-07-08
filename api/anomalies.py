@@ -13,8 +13,17 @@ async def scan_logs(request: LogRequest):
     detected = anomaly_service.scan_logs(request.logs)
 
     results = []
+    seen = {}
     for item in detected:
-        explanation = anomaly_service.explain_anomaly(item['line'])
-        results.append({**item, "ai_insight": explanation})
+        key = (item["type"], item["label"], item["line"])
+        if key in seen:
+            seen[key]["count"] += 1
+            continue
+
+        result = {**item, "count": 1}
+        seen[key] = result
+        results.append(result)
+
+    results = anomaly_service.enrich_anomalies(results)
 
     return {'status': "completed", "anomalies": results}
