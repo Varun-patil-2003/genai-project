@@ -6,6 +6,9 @@ from pathlib import Path
 
 BACKEND_URL = "http://localhost:8000"
 
+# import os
+# API_URL = os.getenv("API_URL", "http://localhost:8000")
+
 st.set_page_config(
     page_title="NetOps AI Sentinel",
     page_icon="🛡️",
