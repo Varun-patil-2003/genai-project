@@ -1,9 +1,7 @@
-Project Vision (Client Requirement)
-
-# "AI-Powered Incident Intelligence & Knowledge Copilot" || "NetOps AI Sentinel"
+# "AI-Powered Incident Intelligence & Knowledge GenAI" || "NetOps AI Sentinel"
 
 A system that:
-1. Ingests logs, tickets, configs (like CUCM, SBC, TPO, TSS)
+1. Ingests logs, tickets, configs (like CUCM, SBC, or Call Managers and VoIP digital gateway)
 2. Detects anomalies proactively
 3. Suggests root cause + resolution
 4. Auto-generates incident summaries + RCA reports
